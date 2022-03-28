@@ -21,6 +21,13 @@ namespace Stack_and_Queue
             stack.Push(node_two);
             stack.Push(node_three);
             stack.Display();
+
+            stack.Peek();
+            stack.Pop();
+            stack.Peek();
+            stack.Pop();
+            stack.Peek();
+            stack.Pop();
         }
     }
 }

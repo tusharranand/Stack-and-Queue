@@ -22,5 +22,14 @@ namespace Stack_and_Queue
         {
             linked_list.Display();
         }
+        public void Peek()
+        {
+            var Value = linked_list.Head.Data;
+            Console.WriteLine("The topmost value is " + Value);
+        }
+        public void Pop()
+        {
+            linked_list.Delete_First();
+        }
     }
 }
