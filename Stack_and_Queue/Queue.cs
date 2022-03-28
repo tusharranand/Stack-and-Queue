@@ -22,5 +22,9 @@ namespace Stack_and_Queue
         {
             linked_list.Display();
         }
+        public void Dequeue()
+        {
+            linked_list.Delete_First();
+        }
     }
 }

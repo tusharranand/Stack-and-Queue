@@ -38,6 +38,9 @@ namespace Stack_and_Queue
             queue.Enqueue(node_two);
             queue.Enqueue(node_three);
             queue.Display();
+
+            queue.Dequeue();
+            queue.Display();
         }
     }
 }
