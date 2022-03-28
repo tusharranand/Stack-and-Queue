@@ -28,6 +28,16 @@ namespace Stack_and_Queue
             stack.Pop();
             stack.Peek();
             stack.Pop();
+
+            node_one = new Node(56);
+            node_two = new Node(30);
+            node_three = new Node(70);
+
+            Queue queue = new Queue();
+            queue.Enqueue(node_one);
+            queue.Enqueue(node_two);
+            queue.Enqueue(node_three);
+            queue.Display();
         }
     }
 }

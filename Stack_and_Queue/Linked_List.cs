@@ -22,11 +22,11 @@ namespace Stack_and_Queue
 
             if (temp == null)
             {
-                Console.WriteLine("List is empty.");
+                Console.WriteLine("\nList is empty.");
             }
             else
             {
-                Console.WriteLine("List is as follows");
+                Console.WriteLine("\nList is as follows");
                 while (temp != null)
                 {
                     Console.Write(temp.Data);
